@@ -1,0 +1,25 @@
+GET http://localhost:3000/product
+
+###
+GET http://localhost:3000/product/610ebf17917ea05e34715c7e
+
+###
+POST  http://localhost:3000/product
+Content-Type: application/json
+
+{
+    "title": "Sabun colek Higienis",
+    "price": 17000
+}
+
+###
+PATCH  http://localhost:3000/product/61109d50e39c4e1ea871422e
+Content-Type: application/json
+
+{
+    "title": "Sabun Colek Higienis",
+    "price": 32000
+}
+
+###
+DELETE http://localhost:3000/product/61109d50e39c4e1ea871422e
