@@ -8,8 +8,11 @@ POST  http://localhost:3000/product
 Content-Type: application/json
 
 {
-    "title": "Sabun colek Higienis",
-    "price": 17000
+    "id_product": "2",
+    "name": "Pasta Gigi President",
+    "price": 24000,
+    "category": "Produk Perawatan Badan",
+    "stock": "15"
 }
 
 ###

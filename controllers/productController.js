@@ -36,7 +36,7 @@ export const saveProducts = async (req, res) => {
 
 export const updateProducts = async (req, res) => {
     const checkId = await Product.findById(req.params.id);
-    if (!checkId) return res.status(404).json({ message: "Data tidak ditemukan" });
+    if (!checkId) return res.status(404).json({ message: "Data Not found here" });
 
     try {
         const updatedProduct = await Product.updateOne({ _id: req.params.id }, { $set: req.body });
