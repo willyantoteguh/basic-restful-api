@@ -1,22 +1,22 @@
-GET http://localhost:3000/product
+GET http://localhost:8080/product
 
 ###
-GET http://localhost:3000/product/610ebf17917ea05e34715c7e
+GET http://localhost:8080/product/610ebf17917ea05e34715c7e
 
 ###
-POST  http://localhost:3000/product
+POST  http://localhost:8080/product
 Content-Type: application/json
 
 {
-    "id_product": "2",
-    "name": "Pasta Gigi President",
-    "price": 24000,
+    "id_product": "8",
+    "name": "Sikat Gigi XN",
+    "price": 11000,
     "category": "Produk Perawatan Badan",
-    "stock": "15"
+    "stock": "10"
 }
 
 ###
-PATCH  http://localhost:3000/product/61109d50e39c4e1ea871422e
+PATCH  http://localhost:8080/product/61109d50e39c4e1ea871422e
 Content-Type: application/json
 
 {
@@ -25,4 +25,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/product/61109d50e39c4e1ea871422e
+DELETE http://localhost:8080/product/61109d50e39c4e1ea871422e
