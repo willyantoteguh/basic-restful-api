@@ -2,13 +2,14 @@
   "name": "node-restful-api",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "engines": {
     "node": "12.11.1",
     "npm": "6.14.8"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
