@@ -8,7 +8,7 @@
     "npm": "6.14.8"
   },
   "scripts": {
-    "start": "npx nodemon index.js"
+    "start": "npm start"
   },
   "keywords": [],
   "author": "",
