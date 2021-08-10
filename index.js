@@ -1,7 +1,7 @@
-import express from "express";
+import express from "./node_modules/express/index.js";
 import mongoose from "mongoose";
 import route from "./routes/index.js"
-import cors from "cors";
+import cors from "./node_modules/cors/lib/index.js";
 import dotenv from "dotenv";
 
 dotenv.config();
